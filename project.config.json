@@ -40,8 +40,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.4.3",
-  "appid": "wx8b9736336b1b226d",
-  "projectname": "校园课程",
+  "appid": "touristappid",
+  "projectname": "%E6%A0%A1%E5%9B%AD%E8%AF%BE%E7%A8%8B",
   "debugOptions": {
     "hidedInDevtools": []
   },
