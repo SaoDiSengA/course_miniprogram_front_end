@@ -1,0 +1,83 @@
+.mainbackground { 
+  height: max-content; 
+  width: 100%; 
+  background-color: #f8f8f8d8; 
+} 
+ 
+/* 导航区域 */ 
+.navScroll { 
+  display: flex;
+  white-space: nowrap;
+  height: 60rpx;
+  width: 100%;
+  flex-direction:row;
+} 
+ 
+.navItem .active { 
+  border-bottom: 5rpx solid #3e60cf; 
+  color:#3e60cf;
+} 
+ 
+.navScroll .navItem { 
+  display: inline-block;
+  padding: 0 30rpx; 
+  box-sizing: border-box; 
+} 
+ 
+/* 主体 */ 
+.course_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rpx;
+  justify-content: space-between;
+}
+
+.course_item {
+  width: 45%;
+  margin-bottom: 20rpx;
+  margin: 10rpx 8rpx;
+  background-color: white;
+  padding: 10rpx 10rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+}
+.course_image {
+  position: relative;
+}
+
+.course_images {
+  width: 184rpx;
+  height: 121rpx;
+}
+
+.course_image image{
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column; 
+}
+
+.bottom text{
+  margin-left: 15rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.jiashao {
+  margin: auto;
+  margin-right: 10rpx;
+}
+
+.jiashao image{
+  width: 30rpx;
+}
+
+.jiashao text{
+  color: #CDCDCD;
+  margin-left: 3rpx;
+  font-size: 25rpx;
+  font-weight: 400;
+}

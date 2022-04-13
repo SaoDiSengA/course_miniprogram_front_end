@@ -1,0 +1,33 @@
+
+<view>
+    <!-- 轮播区域 -->
+    <swiper class="banners" indicator-dots='true' indicator-color='ivory' indicator-active-color='#d43c33'>
+        <swiper-item wx:for="{{bannerList}}" wx:key="bannerId">
+            <image src="{{item.src}}"></image>
+        </swiper-item>
+    </swiper>
+
+    <scroll-view>
+        <view class="top">
+            <text class="toptext1">科技</text>
+            <text class="toptext2">剩余人数：1000人</text>
+        </view>
+        <view class="xian"></view>
+        <view class="content_jieshao">
+            <text class="zhengwen">参与年级： 1~6年级</text>
+            <text class="zhengwen">学习课时：15课时/学期</text>
+            <text class="zhengwen">学习时间： 60分钟</text>
+            <view class="course_content">
+                <text class="zhengwen">课程简介： </text>
+                <text class="jianjieText" decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《科技课2.0系统》教育研发团队经过3年研究和实验，专为6—12岁的少年儿童设计的一套科学课程。课程分为3个阶段，共160个探索主题，内容涉及声、光、电、磁、力、天文、地理、医学、生物、化学等知识。内容根据青少年认知水平及特点编排，由浅入深、循序渐进，并随时代发展更新迭代，让学生通过“科学探究——动手制作——拓展表达——科技创新”等教学流程，感受神奇的科学世界，养成热爱科学、敢于创新的习惯。</text>
+            </view>
+        </view>
+        <view class="tese">
+            <text>教学特色</text>
+            <image src="/static/images/keji/jianjie_1.png" mode="widthFix"></image>
+            
+        </view>
+            
+    </scroll-view>
+    <button class="bottom_button" style='position:fixed;bottom:0;width: 100%;'>立即报名</button>
+</view>

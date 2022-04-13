@@ -1,0 +1,32 @@
+<view>
+<!-- 导航区域 --> 
+<scroll-view
+      scroll-x="true"
+      class="navScroll"
+      enable-flex
+      scroll-into-view="{{'scroll' + navId}}"
+      scroll-with-animation
+  > 
+    <view id="{{'scroll' + item.id}}"  class="navItem" wx:for="{{courseGroupList}}" wx:key="id"> 
+      <view class="navContent {{navId === item.id?'active': ''}}" bindtap="changeNav" id="{{item.id}}" data-id="{{item.id}}"> 
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 主体 -->
+  <view class="course_wrap">
+    <view bindtap="changePag" id="{{item.id}}" class="course_item" wx:for="{{CourseList}}" wx:key="id" >
+      <view class="course_image">
+        <image mode="widthFix" src="{{item.src}}"></image>
+        <view class="bottom">
+          <text>{{item.name}}</text>
+          <view class="jiashao">
+            <image mode="widthFix" src="{{images[0]}}"></image>
+            <text>1000人</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+ 

@@ -1,0 +1,87 @@
+/* page/lesson/jiqiren/jiqiren.wxss */
+/* pages/lesson/meishu/meishu.wxss */
+.mainbackground { 
+  height: max-content; 
+  width: 100%; 
+  background-color: #f8f8f8d8; 
+} 
+
+
+.banners {
+  width: 99%;
+  height: 400rpx;
+  }
+  
+.banners image{
+  width: 100%;
+  height: 400rpx;
+  border-radius: 5%;
+}
+.top {
+  margin: 10rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.toptext1 {
+  margin-bottom: 10rpx;
+  font-weight: 600;
+  font-size: 35rpx;
+  margin-left: 15rpx;
+}
+.toptext2 {
+  margin-bottom: 10rpx;
+  font-size: 25rpx;
+  margin-left: 15rpx;
+}
+
+.xian {
+  background-color: #CDCDCD;
+  height: 2rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.content_jieshao {
+  display: flex;
+  flex-direction: column;
+  margin: 15rpx 20rpx;
+}
+
+.zhengwen {
+  font-size: 30rpx;
+  line-height: 60rpx;
+  margin-left: 15rpx;
+}
+
+.jianjieText {
+  display: flex;
+  margin-left: 15rpx;
+  font-size: 30rpx;
+}
+
+.tese{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+  margin-bottom: 70px;
+}
+
+.tese text{
+  font-weight: 600;
+  margin: 20rpx 0;
+}
+
+.tese image{
+  width: 100%;
+}
+
+.bottom_button {
+  padding: 16px;
+  background-color: #3BAEF1;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+}

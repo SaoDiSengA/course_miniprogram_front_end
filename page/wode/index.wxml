@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<!-- 用户信息 -->
+<view class="userinfo">
+
+<!-- 头像 -->
+<view class="userinfo-avatar" background-size="cover">
+  <open-data type="userAvatarUrl"></open-data>
+</view>
+
+<view class='userinfo_right'>
+  <!-- 昵称 -->
+  <view class="userinfo_nickname">
+    <open-data type="userNickName" lang="zh_CN"></open-data>
+  </view>
+  <!-- 学校 -->
+  <view>
+    <view class="school">太原市实验小学</view>
+  </view>
+</view>
+<view>
+  <image src="/image/my/gerenxinxi.png" class="geren" mode="widthFix"></image>
+</view>
+</view>
+<view class="category-container">
+  <view class="category-box">
+    <navigator url="" class="lianjie">
+      <image class="tubiao" src="/image/my/dingdan.png"></image>
+      <text class="lianjie_wen">订单信息</text>
+    </navigator>
+    <navigator url="" class="lianjie">
+      <image class="tubiao" src="/image/my/techang.png"></image>
+      <text class="lianjie_wen">特长升学规划</text>
+    </navigator>
+    <navigator url="" class="lianjie">
+      <image class="tubiao" src="/image/my/chengzhangdangan.png"></image>
+      <text class="lianjie_wen">成长档案</text>
+    </navigator>
+    <navigator url="" class="lianjie">
+      <image class="tubiao" src="/image/my/kechengkaohe.png"></image>
+      <text class="lianjie_wen">课程考核</text>
+    </navigator>
+  </view>
+</view>
+<view class="wode">
+  <view class="power">
+    <view class="power_info" bindtap="onClickPowerInfo">
+      <view class="power_info_text">
+        <image class="icon" src="/image/my/wodexiaoxi.png"></image>
+        <view class="power_info_text_title">我的消息</view>
+      </view>
+      <image class="power_info_more" src="/image/arrow.png"></image>
+    </view>
+    <view class="power_info" bindtap="onClickPowerInfo">
+      <view class="power_info_text">
+        <image class="icon" src="/image/my/haoyuotuijian.png"></image>
+        <view class="power_info_text_title">好友推荐</view>
+      </view>
+      <image class="power_info_more" src="/image/arrow.png"></image>
+    </view>
+    <view class="power_info" bindtap="onClickPowerInfo">
+      <view class="power_info_text">
+        <image class="icon" src="/image/my/zixunfuwu.png"></image>
+        <view class="power_info_text_title">咨询服务</view>
+      </view>
+      <image class="power_info_more" src="/image/arrow.png"></image>
+    </view>
+  </view>
+  <view class="power">
+    <view class="power_info" bindtap="onClickPowerInfo">
+      <view class="power_info_text">
+        <image class="icon" src="/image/my/guanyuwomen.png"></image>
+        <view class="power_info_text_title">关于我们</view>
+      </view>
+      <image class="power_info_more" src="/image/arrow.png"></image>
+    </view>
+    <view class="power_info" bindtap="onClickPowerInfo">
+      <view class="power_info_text">
+        <image class="icon" src="/image/my/tousujianyi.png"></image>
+        <view class="power_info_text_title">投诉建议</view>
+      </view>
+      <image class="power_info_more" src="/image/arrow.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+<view class="swiper-container">
+  <view class="swiper" indicator-dots="true" indicator-active-color="#fff" autoplay circular>
+    <swiper autoplay interval="3000" circular indicator-dots>
+        <swiper-item><image class="swiper-item" mode="widthFix" src="/image/shouye/banner.png" /></swiper-item>
+        <swiper-item><image class="swiper-item" mode="widthFix" src="/image/shouye/banner.png" /></swiper-item>
+        <swiper-item><image class="swiper-item" mode="widthFix" src="/image/shouye/banner.png" /></swiper-item>
+        <swiper-item><image class="swiper-item" mode="widthFix" src="/image/shouye/banner.png" /></swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class="category-container">
+  <view class="category-box">
+    <navigator url="/page/new_course/new_course" class="lianjie">
+      <image class="icon" src="/image/shouye/zuixinkecheng.png"></image>
+      <text class="lianjie_wen">最新课程</text>
+    </navigator>
+    <navigator url="/page/activities/activities" class="lianjie">
+      <image class="icon" src="/image/shouye/yanxue.png"></image>
+      <text class="lianjie_wen">研学活动</text>
+    </navigator>
+    <navigator url="/page/assessment/assessment" class="lianjie">
+      <image class="icon" src="/image/shouye/xinli.png"></image>
+      <text class="lianjie_wen">心理测评</text>
+    </navigator>
+    <navigator url="/page/survey/survey" class="lianjie">
+      <image class="icon" src="/image/shouye/wenjuan.png"></image>
+      <text class="lianjie_wen">问卷调查</text>
+    </navigator>
+  </view>
+</view>
+<view class="category-container">
+  <view class="suona-box">
+    <image class="suona" src="/image/shouye/suona.png"></image>
+    <text class="xinwen">新闻文字实例</text>
+  </view>
+</view>
+<navigator url="/page/new_course/new_course">
+  <image class="zui" mode="widthFix" src="/image/shouye/zuixin.png"></image>
+</navigator>
+<!-- <view class="category-container">
+  <view class="category-box">
+    <image class="kecheng" src="/image/shouye/kecheng1.png"></image>
+    <image class="kecheng" src="/image/shouye/kecheng2.png"></image>
+    <image class="kecheng" src="/image/shouye/kecheng3.png"></image>
+    <image class="kecheng" src="/image/shouye/kecheng4.png"></image>
+  </view>
+</view> -->
+  <!-- 主体 -->
+  <view class="course_wrap">
+    <view bindtap="changePag" id="{{item.id}}" class="course_item" wx:for="{{CourseList}}" wx:key="id" >
+      <view class="course_image">
+        <image mode="widthFix" src="{{item.src}}"></image>
+        <view class="bottom">
+          <text>{{item.name}}</text>
+          <view class="jiashao">
+            <image mode="widthFix" src="{{images[0]}}"></image>
+            <text>1000人</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+<!-- <view class="list_nomore"><text class="shuju" style="font-size: 20rpx;">没有更多数据啦..</text></view>-->

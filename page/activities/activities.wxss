@@ -1,0 +1,73 @@
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.swiper-tab-item {
+  width: 30%;
+  color: #434343;
+  /* border:1px solid #ccc; */
+}
+
+.active {
+  color: rgb(52, 35, 202);
+  border-bottom: 4rpx solid rgb(52, 35, 202);
+}
+.activities_container{
+  border: 3px solid #434343;
+}
+swiper {
+  height: 1000px;
+  display: flex;
+}
+
+.list_container{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 3px solid #434343; */
+
+}
+.list_container .list{
+  width: 47%;
+  padding-top: 15rpx;
+  padding-left: 7%;
+
+}
+.clairy {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clairy .list {
+  width: 47%;
+  padding-top: 15rpx;
+  padding-left: 7%;
+}
+ 
+/* .game .list {
+  height: 30pt;
+} */
+ 
+/* .application .list {
+  height: 30pt;
+}
+  */
+.game image{
+  margin-top: 20px;
+}
+.application image{
+  margin-top: 20px;
+}
+
+.list_nomore{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top: 30rpx;
+}

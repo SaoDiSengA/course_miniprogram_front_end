@@ -1,0 +1,88 @@
+/* pages/assessment/assessment.wxss */
+.addStudent{
+  display: flex;
+  margin-top: 30rpx;
+}
+
+.tianjia {
+  display:flex;
+  text-align: center;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}
+
+.addStudent button{
+  width: 680rpx!important ;
+  height: 89rpx!important;
+  padding-left: 16%;
+  color: #469ffa;
+  font-size: 32rpx;
+  line-height: 50rpx;
+  border: 2rpx dotted #3987fa;
+  border-radius: 60rpx;
+  background: url(https://i.loli.net/2021/10/14/MoJHW9eIlXuhPzs.png) no-repeat 38% center;
+  background-size: 8%;
+}
+.swiper-tab {
+  width: 680rpx;
+  margin: 0 auto;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.swiper-tab-item {
+  width: 30%;
+  color: #a2a2a2;
+  font-size: 28rpx;
+  /* border:1px solid #ccc; */
+}
+
+.active {
+  color: #4686fa;
+  font-size: 36rpx;
+  border-bottom: 4rpx solid #4686fa;
+}
+swiper {
+  height: 1500px;
+  display: flex;
+}
+.list_container{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 3px solid #434343; */
+
+}
+.waitFor,.review,.finished{
+  box-sizing:content-box;
+  margin: 16rpx auto 0; 
+  padding: 32rpx 24rpx 24rpx;
+  width: 640rpx;
+  height: 118rpx;
+  box-shadow: 0rpx 0rpx 10rpx rgba(61,67,199,.3);
+  background: url(https://www.hualigs.cn/image/6167fca7c6304.jpg) no-repeat;
+  background-size:100% 100%;
+}
+.review{
+  background: url(https://www.hualigs.cn/image/6167fca7c9963.jpg) no-repeat;
+  background-size:100% 100%;
+}
+.finished{
+  background: url(https://www.hualigs.cn/image/6167fca7c5d9b.jpg) no-repeat;
+  background-size:100% 100%;
+}
+.assTitle{
+  display: block;
+  font-size: 34rpx;
+  font-weight: 700;
+  margin-bottom: 24rpx;
+}
+.assText{
+  margin-right: 20rpx;
+  font-size: 24rpx;
+  color: #9b9a9a;
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/ketang/index",
+    "page/wode/index",
+    "page/new_course/new_course",
+    "page/activities/activities",
+    "page/assessment/assessment",
+    "page/survey/survey",
+    "page/lesson/jiqiren/jiqiren",
+    "page/lesson/meishu/meishu",
+    "page/lesson/wudao/wudao",
+    "page/lesson/kexue/kexue",
+    "page/lesson/zhuchi/zhuchi"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园课程",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "text": "首页",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouyeing.png"
+      },
+      {
+        "pagePath": "page/ketang/index",
+        "text": "课堂",
+        "iconPath": "image/ketang.png"
+      },
+      {
+        "pagePath": "page/wode/index",
+        "text": "我的",
+        "iconPath": "image/wode.png",
+        "selectedIconPath": "image/wodeing.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,31 @@
+
+<view>
+    <!-- 轮播区域 -->
+    <swiper class="banners" indicator-dots='true' indicator-color='ivory' indicator-active-color='#d43c33' previous-margin="2px" next-margin="2px">
+        <swiper-item wx:for="{{bannerList}}" wx:key="bannerId">
+            <image src="{{item.src}}"></image>
+        </swiper-item>
+    </swiper>
+    <scroll-view>
+        <view class="top">
+            <text class="toptext1">舞蹈</text>
+            <text class="toptext2">剩余人数：1000人</text>
+        </view>
+        <view class="xian"></view>
+        <view class="content_jieshao">
+            <text class="zhengwen">参与年级： 1~6年级</text>
+            <text class="zhengwen">学习课时：15课时/学期</text>
+            <text class="zhengwen">学习时间： 60分钟</text>
+            <view class="course_content">
+                <text class="zhengwen">课程简介： </text>
+                <text class="jianjieText" decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暂无</text>
+            </view>
+        </view>
+        <view class="tese">
+            <text>教学计划</text>
+            <image src="/static/images/wudao/wudao_3.jpg" mode="widthFix"></image>
+        </view>
+            
+    </scroll-view>
+    <button class="bottom_button" style='position:fixed;bottom:0;width: 100%;'>立即报名</button>
+</view>
